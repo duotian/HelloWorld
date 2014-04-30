@@ -19,6 +19,8 @@
 		FCBE4662191123C7008EA313 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBE464A191123C7008EA313 /* UIKit.framework */; };
 		FCBE466A191123C7008EA313 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBE4668191123C7008EA313 /* InfoPlist.strings */; };
 		FCBE466C191123C7008EA313 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE466B191123C7008EA313 /* HelloWorldTests.m */; };
+		FCBE4677191123EC008EA313 /* mainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE4676191123EC008EA313 /* mainController.m */; };
+		FCBE46791911241E008EA313 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBE46781911241E008EA313 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		FCBE4667191123C7008EA313 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		FCBE4669191123C7008EA313 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCBE466B191123C7008EA313 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		FCBE4675191123EC008EA313 /* mainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainController.h; sourceTree = "<group>"; };
+		FCBE4676191123EC008EA313 /* mainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainController.m; sourceTree = "<group>"; };
+		FCBE46781911241E008EA313 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				FCBE4656191123C7008EA313 /* AppDelegate.m */,
 				FCBE4658191123C7008EA313 /* Images.xcassets */,
 				FCBE464D191123C7008EA313 /* Supporting Files */,
+				FCBE4675191123EC008EA313 /* mainController.h */,
+				FCBE4676191123EC008EA313 /* mainController.m */,
+				FCBE46781911241E008EA313 /* image.png */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBE46791911241E008EA313 /* image.png in Resources */,
 				FCBE4651191123C7008EA313 /* InfoPlist.strings in Resources */,
 				FCBE4659191123C7008EA313 /* Images.xcassets in Resources */,
 			);
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBE4677191123EC008EA313 /* mainController.m in Sources */,
 				FCBE4657191123C7008EA313 /* AppDelegate.m in Sources */,
 				FCBE4653191123C7008EA313 /* main.m in Sources */,
 			);
